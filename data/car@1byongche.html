@@ -1,0 +1,1210 @@
+<!DOCTYPE html><html>
+
+<head>
+<meta charset="utf-8">
+<title>[TOC]</title>
+<style>
+@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAYcAA0AAAAACjQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAABMAAAABwAAAAca8vGTk9TLzIAAAFMAAAARAAAAFZG1VHVY21hcAAAAZAAAAA+AAABQgAP9AdjdnQgAAAB0AAAAAQAAAAEACICiGdhc3AAAAHUAAAACAAAAAj//wADZ2x5ZgAAAdwAAADRAAABEKyikaNoZWFkAAACsAAAAC0AAAA2AtXoA2hoZWEAAALgAAAAHAAAACQHngNFaG10eAAAAvwAAAAQAAAAEAwAACJsb2NhAAADDAAAAAoAAAAKALIAVG1heHAAAAMYAAAAHwAAACABEAB2bmFtZQAAAzgAAALBAAAFu3I9x/Nwb3N0AAAF/AAAAB0AAAAvaoFvbwAAAAEAAAAAzBdyYwAAAADP2IQvAAAAAM/bz7t4nGNgZGFgnMDAysDB1Ml0hoGBoR9CM75mMGLkYGBgYmBlZsAKAtJcUxgcPsR8iGF2+O/AEMPsznAYKMwIkgMA5REMOXicY2BgYGaAYBkGRgYQsAHyGMF8FgYFIM0ChED+h5j//yEk/3KoSgZGNgYYk4GRCUgwMaACRoZhDwCs7QgGAAAAIgKIAAAAAf//AAJ4nHWMMQrCQBBF/0zWrCCIKUQsTDCL2EXMohYGSSmorScInsRGL2DOYJe0Ntp7BK+gJ1BxF1stZvjz/v8DRghQzEc4kIgKwiAppcA9LtzKLSkdNhKFY3HF4lK69ExKslx7Xa+vPRVS43G98vG1DnkDMIBUgFN0MDXflU8tbaZOUkXUH0+U27RoRpOIyCKjbMCVejwypzJJG4jIwb43rfl6wbwanocrJm9XFYfskuVC5K/TPyczNU7b84CXcbxks1Un6H6tLH9vf2LRnn8Ax7A5WQAAAHicY2BkYGAA4teL1+yI57f5ysDNwgAC529f0kOmWRiYVgEpDgYmEA8AUzEKsQAAAHicY2BkYGB2+O/AEMPCAAJAkpEBFbAAADgKAe0EAAAiAAAAAAQAAAAEAAAAAAAAKgAqACoAiAAAeJxjYGRgYGBhsGFgYgABEMkFhAwM/xn0QAIAD6YBhwB4nI1Ty07cMBS9QwKlQapQW3VXySvEqDCZGbGaHULiIQ1FKgjWMxknMfLEke2A+IJu+wntrt/QbVf9gG75jK577Lg8K1qQPCfnnnt8fX1NRC/pmjrk/zprC+8D7tBy9DHgBXoWfQ44Av8t4Bj4Z8CLtBL9CniJluPXASf0Lm4CXqFX8Q84dOLnMB17N4c7tBo1AS/Qi+hTwBH4rwHHwN8DXqQ30XXAS7QaLwSc0Gn8NuAVWou/gFmnjLrEaEh9GmDdDGgL3B4JsrRPDU2hTOiMSuJUIdKQQayiAth69r6akSSFqIJuA19TrzCIaY8sIoxyrNIrL//pw7A2iMygkX5vDj+G+kuoLdX4GlGK/8Lnlz6/h9MpmoO9rafrz7ILXEHHaAx95s9lsI7AHNMBWEZHULnfAXwG9/ZqdzLI08iuwRloXE8kfhXYAvE23+23DU3t626rbs8/8adv+9DWknsHp3E17oCf+Z48rvEQNZ78paYM38qfk3v/u3l3u3GXN2Dmvmvpf1Srwk3pB/VSsp512bA/GG5i2WJ7wu430yQ5K3nFGiOqgtmSB5pJVSizwaacmUZzZhXLlZTq8qGGFY2YcSkqbth6aW1tRmlaCFs2016m5qn36SbJrqosG4uMV4aP2PHBmB3tjtmgN2izkGQyLWprekbIntJFing32a5rKWCN/SdSoga45EJykyQ7asZvHQ8PTm6cslIpwyeyjbVltNikc2HTR7YKh9LBl9DADC0U/jLcBZDKrMhUBfQBvXRzLtFtjU9eNHKin0x5InTqb8lNpfKv1s1xHzTXRqgKzek/mb7nB8RZTCDhGEX3kK/8Q75AmUM/eLkfA+0Hi908Kx4eNsMgudg5GLdRD7a84npi+YxNr5i5KIbW5izXas7cHXIMAau1OueZhfj+cOcP3P8MNIWLyYOBuxL6DRylJ4cAAAB4nGNgYoAALjDJyIAOWMCiTIxMLDmZedkABtIBygAAAA==) format('woff');
+}
+
+body {
+  background-color: white;
+}
+
+.markdown-body {
+  min-width: 200px;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px;
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background: transparent;;word-wrap: break-word; word-break: break-all;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body * {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body input {
+  font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:focus,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body kbd {
+  background-color: #e7e7e7;
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 2px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 5px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body .anchor {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  padding-right: 6px;
+  padding-left: 30px;
+  margin-left: -30px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  position: relative;
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  display: none;
+  color: #000;
+  vertical-align: middle;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  height: 1em;
+  padding-left: 8px;
+  margin-left: -30px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  display: inline-block;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body .highlight {
+  background: #fff;
+}
+
+.markdown-body .highlight .mf,
+.markdown-body .highlight .mh,
+.markdown-body .highlight .mi,
+.markdown-body .highlight .mo,
+.markdown-body .highlight .il,
+.markdown-body .highlight .m {
+  color: #945277;
+}
+
+.markdown-body .highlight .s,
+.markdown-body .highlight .sb,
+.markdown-body .highlight .sc,
+.markdown-body .highlight .sd,
+.markdown-body .highlight .s2,
+.markdown-body .highlight .se,
+.markdown-body .highlight .sh,
+.markdown-body .highlight .si,
+.markdown-body .highlight .sx,
+.markdown-body .highlight .s1 {
+  color: #df5000;
+}
+
+.markdown-body .highlight .kc,
+.markdown-body .highlight .kd,
+.markdown-body .highlight .kn,
+.markdown-body .highlight .kp,
+.markdown-body .highlight .kr,
+.markdown-body .highlight .kt,
+.markdown-body .highlight .k,
+.markdown-body .highlight .o {
+  font-weight: bold;
+}
+
+.markdown-body .highlight .kt {
+  color: #458;
+}
+
+.markdown-body .highlight .c,
+.markdown-body .highlight .cm,
+.markdown-body .highlight .c1 {
+  color: #998;
+  font-style: italic;
+}
+
+.markdown-body .highlight .cp,
+.markdown-body .highlight .cs {
+  color: #999;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .cs {
+  font-style: italic;
+}
+
+.markdown-body .highlight .n {
+  color: #333;
+}
+
+.markdown-body .highlight .na,
+.markdown-body .highlight .nv,
+.markdown-body .highlight .vc,
+.markdown-body .highlight .vg,
+.markdown-body .highlight .vi {
+  color: #008080;
+}
+
+.markdown-body .highlight .nb {
+  color: #0086B3;
+}
+
+.markdown-body .highlight .nc {
+  color: #458;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .no {
+  color: #094e99;
+}
+
+.markdown-body .highlight .ni {
+  color: #800080;
+}
+
+.markdown-body .highlight .ne {
+  color: #990000;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .nf {
+  color: #945277;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .nn {
+  color: #555;
+}
+
+.markdown-body .highlight .nt {
+  color: #000080;
+}
+
+.markdown-body .highlight .err {
+  color: #a61717;
+  background-color: #e3d2d2;
+}
+
+.markdown-body .highlight .gd {
+  color: #000;
+  background-color: #fdd;
+}
+
+.markdown-body .highlight .gd .x {
+  color: #000;
+  background-color: #faa;
+}
+
+.markdown-body .highlight .ge {
+  font-style: italic;
+}
+
+.markdown-body .highlight .gr {
+  color: #aa0000;
+}
+
+.markdown-body .highlight .gh {
+  color: #999;
+}
+
+.markdown-body .highlight .gi {
+  color: #000;
+  background-color: #dfd;
+}
+
+.markdown-body .highlight .gi .x {
+  color: #000;
+  background-color: #afa;
+}
+
+.markdown-body .highlight .go {
+  color: #888;
+}
+
+.markdown-body .highlight .gp {
+  color: #555;
+}
+
+.markdown-body .highlight .gs {
+  font-weight: bold;
+}
+
+.markdown-body .highlight .gu {
+  color: #800080;
+  font-weight: bold;
+}
+
+.markdown-body .highlight .gt {
+  color: #aa0000;
+}
+
+.markdown-body .highlight .ow {
+  font-weight: bold;
+}
+
+.markdown-body .highlight .w {
+  color: #bbb;
+}
+
+.markdown-body .highlight .sr {
+  color: #017936;
+}
+
+.markdown-body .highlight .ss {
+  color: #8b467f;
+}
+
+.markdown-body .highlight .bp {
+  color: #999;
+}
+
+.markdown-body .highlight .gc {
+  color: #999;
+  background-color: #EAF2F5;
+}
+
+.markdown-body .octicon {
+  font: normal normal 16px octicons-anchor;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  float: left;
+  margin: 0.3em 0 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+/*
+
+github.com style (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: #333;
+  background: #f8f8f8;
+  -webkit-text-size-adjust: none;
+}
+
+.hljs-comment,
+.diff .hljs-header {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.css .rule .hljs-keyword,
+.hljs-winutils,
+.nginx .hljs-title,
+.hljs-subst,
+.hljs-request,
+.hljs-status {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-hexcolor,
+.ruby .hljs-constant {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-tag .hljs-value,
+.hljs-doctag,
+.tex .hljs-formula {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-id,
+.scss .hljs-preprocessor {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-list .hljs-keyword,
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-class .hljs-title,
+.hljs-type,
+.vhdl .hljs-literal,
+.tex .hljs-command {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-tag .hljs-title,
+.hljs-rule .hljs-property,
+.django .hljs-tag .hljs-keyword {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-attribute,
+.hljs-variable,
+.lisp .hljs-body,
+.hljs-name {
+  color: #008080;
+}
+
+.hljs-regexp {
+  color: #009926;
+}
+
+.hljs-symbol,
+.ruby .hljs-symbol .hljs-string,
+.lisp .hljs-keyword,
+.clojure .hljs-keyword,
+.scheme .hljs-keyword,
+.tex .hljs-special,
+.hljs-prompt {
+  color: #990073;
+}
+
+.hljs-built_in {
+  color: #0086b3;
+}
+
+.hljs-preprocessor,
+.hljs-pragma,
+.hljs-pi,
+.hljs-doctype,
+.hljs-shebang,
+.hljs-cdata {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.diff .hljs-change {
+  background: #0086b3;
+}
+
+.hljs-chunk {
+  color: #aaa;
+}
+
+
+</style>
+
+<style> @media print{ .hljs{overflow: visible; word-wrap: break-word !important;} }</style></head><body><div class="markdown-body">
+<ul>
+<li>
+<a href="#toc_0">《车辆平台》概要设计</a>
+<ul>
+<li>
+<a href="#toc_1">现况总述</a>
+<ul>
+<li>
+<a href="#toc_2">1. 运营管理端</a>
+<ul>
+<li>
+<a href="#toc_3">1.1 车型管理</a>
+</li>
+<li>
+<a href="#toc_4">1.2 车辆管理</a>
+</li>
+<li>
+<a href="#toc_5">1.3 离线统计</a>
+</li>
+<li>
+<a href="#toc_6">1.4 使用记录</a>
+</li>
+<li>
+<a href="#toc_7">1.5 启动记录</a>
+</li>
+<li>
+<a href="#toc_8">1.6 车辆监控</a>
+</li>
+<li>
+<a href="#toc_9">1.7 RFID卡</a>
+</li>
+<li>
+<a href="#toc_10">1.8 违章记录</a>
+</li>
+<li>
+<a href="#toc_11">1.9 对外接口</a>
+</li>
+<li>
+<a href="#toc_12">1.10 大客户</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_13">2. 一步用车端</a>
+</li>
+<li>
+<a href="#toc_14">3. 一步车服端</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_15">问题总结</a>
+<ul>
+<li>
+<a href="#toc_16">1. Tbox类型多样</a>
+</li>
+<li>
+<a href="#toc_17">2. 实时状态存储</a>
+</li>
+<li>
+<a href="#toc_18">3. 实时状态统计</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_19">总体设计</a>
+<ul>
+<li>
+<a href="#toc_20">1. 结构图示</a>
+</li>
+<li>
+<a href="#toc_21">2. 图示说明</a>
+<ul>
+<li>
+<a href="#toc_22">2.1 为什么需要虚拟网关？</a>
+</li>
+<li>
+<a href="#toc_23">2.2 虚拟网关的作用是什么？</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#toc_24">迭代计划</a>
+<ul>
+<li>
+<a href="#toc_25">1. 保持业务稳定，平滑过渡</a>
+</li>
+<li>
+<a href="#toc_26">2. 自下而上，持续交付</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<h1 id="toc_0">《车辆平台》概要设计</h1>
+
+<blockquote>
+<p>随风潜入夜，润物细无声 ——杜甫《春夜喜雨》</p>
+</blockquote>
+
+<h2 id="toc_1">现况总述</h2>
+
+<blockquote>
+<ul>
+<li>编写目标：梳理车辆平台的功能点，并以重构为主，提出必要的需求变更</li>
+<li>车辆服务功能点分布在运营管理端，一步用车端和一步车服端</li>
+</ul>
+</blockquote>
+
+<h3 id="toc_2">1. 运营管理端</h3>
+
+<h4 id="toc_3">1.1 车型管理</h4>
+
+<p>✨ 功能列表 </p>
+
+<pre><code>1. 单条页面录入
+2. 单条页面编辑
+3. 单条页面详情
+4. 单条页面删除
+</code></pre>
+
+<p>🐛 问题透析</p>
+
+<pre><code>1. 耦合长租/分时计费标准（属于订单计费规则）
+2. 耦合TBOX配置参数（配置参数只能以车型为维度）
+</code></pre>
+
+<h4 id="toc_4">1.2 车辆管理</h4>
+
+<p>✨ 功能列表 </p>
+
+<pre><code>1. 单条页面录入
+2. 单条页面编辑
+3. 单条页面详情
+4. 单条页面删除
+5. 批量文件录入
+6. 批量文件导出
+7. 批量关车门
+8. 车辆信息分页查询（包括实时状态）
+9. 查看实时数据
+10. 查看评论
+11. 查看车贴
+12. 车辆动力记录
+13. 车辆运维记录
+14. 车辆参数查询
+15. 车辆参数同步
+16. 车辆断开动力
+17. 车辆开/关车门
+18. 设置空闲/故障状态
+19. 清空运维卡
+20. 重启TBOX
+21. 保险批量录入
+22. 保险到期页面统计
+</code></pre>
+
+<p>🐛 问题透析</p>
+
+<pre><code>1. 分离车辆保险功能？
+2. 导出所有车辆（信息，状态） 功能的需求场景
+3. 批量关车门功能的需求场景   
+4. 车辆参数配置显示，同步
+5. 分离动力记录（车辆控制日志）
+6. 分离运维记录
+</code></pre>
+
+<h4 id="toc_5">1.3 离线统计</h4>
+
+<p>✨ 功能列表</p>
+
+<pre><code>1. 离线统计记录
+2. 离线信息分页查询
+3. 批量文件导出
+</code></pre>
+
+<p>🐛 问题透析</p>
+
+<pre><code>1. 扫MySQL车辆数据，车辆实时状态，插入Mongodb
+</code></pre>
+
+<h4 id="toc_6">1.4 使用记录</h4>
+
+<p>✨ 功能列表</p>
+
+<pre><code>1. 车辆订单记录分页查询
+</code></pre>
+
+<p>🐛 问题透析</p>
+
+<pre><code>1. 大客户用车，拿卡大客户用车，长租下单，分时下单，换车
+2. 获取违章对应的用户
+</code></pre>
+
+<h4 id="toc_7">1.5 启动记录</h4>
+
+<p>✨ 功能列表</p>
+
+<pre><code>1. 达到一直未启动天数的车辆数
+2. 车辆启动关闭记录分页
+</code></pre>
+
+<p>🐛 问题透析</p>
+
+<pre><code>1. 从心跳状态，记录Redis，再插入Mongodb
+</code></pre>
+
+<h4 id="toc_8">1.6 车辆监控</h4>
+
+<p>✨ 功能列表</p>
+
+<pre><code>1. 网点地图标注
+2. 车辆实时位置查询
+3. 车辆历史轨迹查询（巡航）
+</code></pre>
+
+<p>🐛 问题透析</p>
+
+<pre><code>1. 轨迹点只有时速大于40的数据
+2. 历史轨迹巡航交互差
+</code></pre>
+
+<h4 id="toc_9">1.7 RFID卡</h4>
+
+<p>✨ 功能列表</p>
+
+<pre><code>1. 单条页面录入
+2. 单条页面删除
+2. 批量文件导入
+3. 批量文件导出
+4. 卡状态修改
+5. 卡信息分页查询
+6. 运维卡车辆查看
+7. 运维卡车辆分配
+8. 运维卡全部车辆分配
+</code></pre>
+
+<h4 id="toc_10">1.8 违章记录</h4>
+
+<p>✨ 功能列表</p>
+
+<pre><code>1. 违章记录分页查询
+2. 违章记录处理
+3. 违章记录全量导出
+4. 违章记录定时录入
+5. 车辆违章分页查询
+6. 车辆违章批量导出
+7. 车辆违章处理
+8. 车辆违章处理详情
+9. 车辆违章定时录入
+10. 车辆分页查询
+11. 车辆批量文件导入
+</code></pre>
+
+<p>🐛 问题透析</p>
+
+<pre><code>1. 违章记录列表和车辆违章查询的区别
+2. 第三方违章查询接口抖动
+3. 批量处理的结果核对、补偿
+4. 需要单独的车辆库？
+</code></pre>
+
+<h4 id="toc_11">1.9 对外接口</h4>
+
+<p>✨ 功能列表</p>
+
+<pre><code>1. 订单平台的计费接口
+2. 网点平台的车辆关系接口
+3. 等。。。
+</code></pre>
+
+<h4 id="toc_12">1.10 大客户</h4>
+
+<p>✨ 功能列表  </p>
+
+<pre><code>1. 车辆列表分页查询
+2. 车辆实时数据
+3. 车辆开关车门
+4. 车辆实时监控
+5. 车辆历史轨迹    
+</code></pre>
+
+<h3 id="toc_13">2. 一步用车端</h3>
+
+<p>✨ 接口列表  </p>
+
+<pre><code>1. 车辆状态批量（网点）查询
+2. 车辆控制开关车门/寻车
+3. 历史订单车辆轨迹
+</code></pre>
+
+<h3 id="toc_14">3. 一步车服端</h3>
+
+<p>✨ 接口列表  </p>
+
+<pre><code>1. 车辆状态批量查询
+2. 车辆控制开关车门/寻车，开始/结束运维
+</code></pre>
+
+<h2 id="toc_15">问题总结</h2>
+
+<blockquote>
+<p>编写目的：总结出现有工程存留的问题，为新的设计提供指标</p>
+</blockquote>
+
+<h3 id="toc_16">1. Tbox类型多样</h3>
+
+<pre><code>1. Tbox厂商多样，接口标准不一，业务代码需根据Tbox类型构造相应的请求
+2. Tbox厂商多样，接口地址不一，业务代码需根据Tbox类型匹配相应服务地址
+3. Tbox类型的增加或废除，直接影响业务代码，违背开放关闭原则
+</code></pre>
+
+<h3 id="toc_17">2. 实时状态存储</h3>
+
+<pre><code>1. 数据分布于Redis，Mongodb和MySQL
+2. 实时状态数据记录不完整（时速大于四十）
+3. 截止文档编写时，总数据量已达到一千二百万条
+4. 近三个月来，每月数据量增加一百八十万条
+</code></pre>
+
+<h3 id="toc_18">3. 实时状态统计</h3>
+
+<pre><code>1. 离线统计：扫MySQL车辆数据，车辆实时状态，插入Mongodb
+2. 启动统计：从心跳状态，记录Redis，再插入Mongodb
+</code></pre>
+
+<h2 id="toc_19">总体设计</h2>
+
+<blockquote>
+<p>编写目的：探索出高可用，易扩展和可伸缩的车辆平台结构</p>
+</blockquote>
+
+<h3 id="toc_20">1. 结构图示</h3>
+
+<p><img src="http://ot9k682p8.bkt.clouddn.com/%E8%BD%A6%E8%BE%86%E5%B9%B3%E5%8F%B0%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E5%9B%BE.png" alt="车辆平台架构设计图"/></p>
+
+<h3 id="toc_21">2. 图示说明</h3>
+
+<h4 id="toc_22">2.1 为什么需要虚拟网关？</h4>
+
+<pre><code>1. Tbox厂商多样，接口标准不一，接口地址不一
+2. 业务代码需要关注Tbox类型的差异，产生大量判断代码
+3. Tbox类型的增加或废除，直接影响业务代码，违背开放关闭原则
+4. 多个Tbox网关同时运行，缺乏有效的监控保障体系
+</code></pre>
+
+<h4 id="toc_23">2.2 虚拟网关的作用是什么？</h4>
+
+<pre><code>1. 屏蔽Tbox厂商的多样
+2. 统一车辆状态上报和命令控制接口，封装Tbox类型的多样和变化，降低耦合
+3. 实现对所有运行网关的监控，保障网关的可用性
+4. 镜像车辆的上报状态，保障迭代的持续交付，热部署和失败回退
+</code></pre>
+
+<h2 id="toc_24">迭代计划</h2>
+
+<h3 id="toc_25">1. 保持业务稳定，平滑过渡</h3>
+
+<p><img src="http://ot9k682p8.bkt.clouddn.com/%E8%BD%A6%E8%BE%86%E5%B9%B3%E5%8F%B0%E8%BF%87%E6%B8%A1.png" alt=""/></p>
+
+<h3 id="toc_26">2. 自下而上，持续交付</h3>
+
+<p><img src="http://ot9k682p8.bkt.clouddn.com/%E8%BD%A6%E8%BE%86%E5%B9%B3%E5%8F%B0%E6%9C%8D%E5%8A%A1%E6%A8%A1%E5%9D%971.png" alt=""/></p>
+
+</div></body>
+
+</html>
