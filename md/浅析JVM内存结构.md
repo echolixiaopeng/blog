@@ -8,7 +8,7 @@ tags:
 ---
 JVM把内存划分为五个区域。方法区（Method Area），堆区（Heap Area），栈区（Stack Area），PC寄存器（PC Registers），本地方法堆栈（Native Method stacks）·   
 
-![](http://ot9k682p8.bkt.clouddn.com/JVM%20Runtime%20Data%20Areas.png)
+![](https://github.com/echolixiaopeng/blog/raw/master/data/JVM%20Runtime%20Data%20Areas.png)
 
 ### 方法区（Method Area）
 
@@ -19,7 +19,7 @@ JVM把内存划分为五个区域。方法区（Method Area），堆区（Heap A
 * 在`Full FC`时会回收方法区的空间。
 
 ### 堆区（Heap Area）
-![](http://ot9k682p8.bkt.clouddn.com/jvm-heap.jpg)
+![](https://github.com/echolixiaopeng/blog/raw/master/data/jvm-heap.jpg)
 
 * 堆区，是`线程共享`的。
 * 堆区用来存储对象实例及数组值。

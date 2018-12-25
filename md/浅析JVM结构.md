@@ -9,7 +9,7 @@ tags:
 JRE只是JVM（Java Virtual Machine）标准的一个实现，JVM负责分析字节码，编译代码和执行代码。了解JVM有助于我们写出更高效的代码，下面的内容有助于你了解到JVM的架构和JVM的不同组建。
     
 ### 既然说结构，必须先上图
-![JVM-Architecture](http://ot9k682p8.bkt.clouddn.com/JVM-Architecture.png)
+![JVM-Architecture](https://github.com/echolixiaopeng/blog/raw/master/data/JVM-Architecture.png)
 
 ### JVM的组成是什么？
 如上图所示，JVM由三个子系统构成。

@@ -8,7 +8,7 @@ tags:
 ---
 Java Memory Model（JMM），Java内存模型，是一个抽象的概念。JMM是围绕着多线程通信以及与其相关的一系列特性而建立的模型。JMM定义了一些语法集，这些语法集映射到Java语言中就是volatile、synchronized等关键字。
 
-![](http://ot9k682p8.bkt.clouddn.com/jmm.jpeg)
+![](https://github.com/echolixiaopeng/blog/raw/master/data/jmm.jpeg)
 
 JMM规定了所有的变量都存储在`主内存`（Main Memory）中。每个线程还有自己的`工作内存`（Working Memory）,线程的工作内存中保存了该线程使用到的变量的主内存的副本拷贝，线程对变量的所有操作（读取、赋值等）都必须在工作内存中进行，而不能直接读写主内存中的变量（volatile变量仍然有工作内存的拷贝，但是由于它特殊的操作顺序性规定，所以看起来如同直接在主内存中读写访问一般）。不同的线程之间也无法直接访问对方工作内存中的变量，线程之间值的传递都需要通过主内存来完成。
 
